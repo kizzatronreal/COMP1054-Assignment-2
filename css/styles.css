@@ -39,3 +39,16 @@ header h1 {
     padding: 0 12px;
 
 }
+
+/* article layout */
+article {
+    column-count: 3;
+    column-gap: 2rem;
+}
+
+/* forces the top elements to span fully across all columns */
+article > img,
+article > h2:first-of-type,
+article > p:first-of-type {
+    column-span: all;
+}
