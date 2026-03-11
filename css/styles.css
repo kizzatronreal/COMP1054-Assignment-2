@@ -19,3 +19,23 @@ body {
     padding: 3rem 4rem;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 }
+
+/* header / top area */
+header {
+    margin-bottom: 2rem;
+}
+
+header h1 {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: #d15822;
+    letter-spacing: 1.1px;
+    margin: 0;
+    display: inline-block;
+    /* vertical piping in header */
+    border-left: 2px solid #d15822;
+    border-right: 2px solid #d15822;
+    padding: 0 12px;
+
+}
