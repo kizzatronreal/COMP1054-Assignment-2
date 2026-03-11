@@ -54,7 +54,7 @@ article > h2:first-of-type,
 article > p:first-of-type {
     float: left;
     clear: left; /* Ensures they stack neatly on top of one another */
-    width: 64%; 
+    width: 70%; 
     margin-right: 4%;
 }
 
@@ -165,6 +165,15 @@ footer time {
         margin: 1rem;
     }
     
+    /* Reset the floats so elements stack normally */
+    article > img,
+    article > h2:first-of-type,
+    article > p:first-of-type {
+        float: none;
+        width: 70%;
+        margin-right: 0;
+    }
+
     article {
         column-count: 2;
     }
